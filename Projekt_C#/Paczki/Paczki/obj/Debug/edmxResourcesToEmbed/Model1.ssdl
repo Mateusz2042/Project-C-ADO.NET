@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BazaDanychModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Kurierzy">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Imie" Type="char" MaxLength="30" />
+    <Property Name="Nazwisko" Type="char" MaxLength="30" />
+    <Property Name="Wiek" Type="int" />
+    <Property Name="Pensja" Type="int" />
+    <Property Name="Numer_telefonu" Type="char" MaxLength="9" />
+  </EntityType>
+  <EntityType Name="Nadawcy">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Imie" Type="char" MaxLength="30" />
+    <Property Name="Nazwisko" Type="char" MaxLength="30" />
+    <Property Name="Ulica" Type="char" MaxLength="30" />
+    <Property Name="Nr_domu" Type="char" MaxLength="10" />
+    <Property Name="Kod_pocztowy" Type="char" MaxLength="6" />
+    <Property Name="Miasto" Type="char" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="Odbiorcy">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Imie" Type="char" MaxLength="30" />
+    <Property Name="Nazwisko" Type="char" MaxLength="30" />
+    <Property Name="Ulica" Type="char" MaxLength="30" />
+    <Property Name="Nr_domu" Type="char" MaxLength="10" />
+    <Property Name="Kod_pocztowy" Type="char" MaxLength="6" />
+    <Property Name="Miasto" Type="char" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="Przesylki">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Typ_przesylki" Type="char" MaxLength="10" />
+    <Property Name="Nazwa" Type="char" MaxLength="50" />
+    <Property Name="Metoda_przeslania" Type="char" MaxLength="20" />
+    <Property Name="Waga" Type="char" MaxLength="10" />
+    <Property Name="Nadawca" Type="char" MaxLength="50" />
+    <Property Name="Odbiorca" Type="char" MaxLength="50" />
+    <Property Name="Data_nadania" Type="char" MaxLength="20" />
+    <Property Name="Status" Type="char" MaxLength="20" />
+  </EntityType>
+  <EntityContainer Name="BazaDanychModelStoreContainer">
+    <EntitySet Name="Kurierzy" EntityType="Self.Kurierzy" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Nadawcy" EntityType="Self.Nadawcy" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Odbiorcy" EntityType="Self.Odbiorcy" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Przesylki" EntityType="Self.Przesylki" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

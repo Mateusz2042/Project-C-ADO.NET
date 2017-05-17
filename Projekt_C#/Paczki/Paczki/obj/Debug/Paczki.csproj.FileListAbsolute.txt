@@ -1,0 +1,139 @@
+C:\Users\student\Desktop\Paczki\Paczki\bin\Debug\Paczki.exe.config
+C:\Users\student\Desktop\Paczki\Paczki\bin\Debug\Paczki.exe
+C:\Users\student\Desktop\Paczki\Paczki\bin\Debug\Paczki.pdb
+C:\Users\student\Desktop\Paczki\Paczki\obj\Debug\Paczki.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Paczki\Paczki\obj\Debug\Paczki.Form1.resources
+C:\Users\student\Desktop\Paczki\Paczki\obj\Debug\Paczki.Properties.Resources.resources
+C:\Users\student\Desktop\Paczki\Paczki\obj\Debug\Paczki.csproj.GenerateResource.Cache
+C:\Users\student\Desktop\Paczki\Paczki\obj\Debug\Paczki.exe
+C:\Users\student\Desktop\Paczki\Paczki\obj\Debug\Paczki.pdb
+C:\Users\student\Desktop\Paczki\Paczki\obj\Debug\Paczki.Kontrolka.resources
+C:\Users\student\Desktop\Paczki\Paczki\obj\Debug\Paczki.Kontrolka1.resources
+C:\Users\Mateusz\Desktop\Paczki\Paczki\bin\Debug\Paczki.exe.config
+C:\Users\Mateusz\Desktop\Paczki\Paczki\obj\Debug\Paczki.exe
+C:\Users\Mateusz\Desktop\Paczki\Paczki\obj\Debug\Paczki.pdb
+C:\Users\Mateusz\Desktop\Paczki\Paczki\obj\Debug\Paczki.csprojResolveAssemblyReference.cache
+C:\Users\Mateusz\Desktop\Paczki\Paczki\obj\Debug\Paczki.Form1.resources
+C:\Users\Mateusz\Desktop\Paczki\Paczki\obj\Debug\Paczki.Kontrolka.resources
+C:\Users\Mateusz\Desktop\Paczki\Paczki\obj\Debug\Paczki.Kontrolka1.resources
+C:\Users\Mateusz\Desktop\Paczki\Paczki\obj\Debug\Paczki.Properties.Resources.resources
+C:\Users\Mateusz\Desktop\Paczki\Paczki\obj\Debug\Paczki.csproj.GenerateResource.Cache
+C:\Users\Mateusz\Desktop\Paczki\Paczki\bin\Debug\Paczki.exe
+C:\Users\Mateusz\Desktop\Paczki\Paczki\bin\Debug\Paczki.pdb
+G:\Paczki\Paczki\bin\Debug\Paczki.exe.config
+G:\Paczki\Paczki\bin\Debug\Paczki.exe
+G:\Paczki\Paczki\bin\Debug\Paczki.pdb
+G:\Paczki\Paczki\obj\Debug\Paczki.csprojResolveAssemblyReference.cache
+G:\Paczki\Paczki\obj\Debug\Paczki.Form1.resources
+G:\Paczki\Paczki\obj\Debug\Paczki.Form2.resources
+G:\Paczki\Paczki\obj\Debug\Paczki.Kontrolka.resources
+G:\Paczki\Paczki\obj\Debug\Paczki.Kontrolka1.resources
+G:\Paczki\Paczki\obj\Debug\Paczki.Properties.Resources.resources
+G:\Paczki\Paczki\obj\Debug\Paczki.csproj.GenerateResource.Cache
+G:\Paczki\Paczki\obj\Debug\Paczki.exe
+G:\Paczki\Paczki\obj\Debug\Paczki.pdb
+C:\Users\Mateusz\Desktop\Paczki\Paczki\bin\Debug\Bazaaaaa.mdf
+C:\Users\Mateusz\Desktop\Paczki\Paczki\bin\Debug\Bazaaaaa_log.ldf
+C:\Users\Mateusz\Desktop\Projekt C#\Paczki\Paczki\bin\Debug\Bazaaaaa.mdf
+C:\Users\Mateusz\Desktop\Projekt C#\Paczki\Paczki\bin\Debug\Bazaaaaa_log.ldf
+C:\Users\Mateusz\Desktop\Projekt C#\Paczki\Paczki\bin\Debug\Paczki.exe.config
+C:\Users\Mateusz\Desktop\Projekt C#\Paczki\Paczki\bin\Debug\Paczki.exe
+C:\Users\Mateusz\Desktop\Projekt C#\Paczki\Paczki\bin\Debug\Paczki.pdb
+C:\Users\Mateusz\Desktop\Projekt C#\Paczki\Paczki\obj\Debug\Paczki.csprojResolveAssemblyReference.cache
+C:\Users\Mateusz\Desktop\Projekt C#\Paczki\Paczki\obj\Debug\Paczki.Form1.resources
+C:\Users\Mateusz\Desktop\Projekt C#\Paczki\Paczki\obj\Debug\Paczki.Kontrolka.resources
+C:\Users\Mateusz\Desktop\Projekt C#\Paczki\Paczki\obj\Debug\Paczki.Kontrolka1.resources
+C:\Users\Mateusz\Desktop\Projekt C#\Paczki\Paczki\obj\Debug\Paczki.Properties.Resources.resources
+C:\Users\Mateusz\Desktop\Projekt C#\Paczki\Paczki\obj\Debug\Paczki.csproj.GenerateResource.Cache
+C:\Users\Mateusz\Desktop\Projekt C#\Paczki\Paczki\obj\Debug\Paczki.exe
+C:\Users\Mateusz\Desktop\Projekt C#\Paczki\Paczki\obj\Debug\Paczki.pdb
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\Paczki.exe.config
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\Paczki.exe
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\Paczki.pdb
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.csprojResolveAssemblyReference.cache
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Form1.resources
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Kontrolka.resources
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Kontrolka1.resources
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Properties.Resources.resources
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.csproj.GenerateResource.Cache
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.exe
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.pdb
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Form2.resources
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Form3.resources
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Form4.resources
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Form5.resources
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Form6.resources
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\GMap.NET.Core.dll
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\GMap.NET.Core.xml
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\GMap.NET.WindowsForms.xml
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Form7.resources
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Form8.resources
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Form9.resources
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Form10.resources
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\RdlCompile.cache
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\RdlCompile.compiled
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\EntityFramework.dll
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\EntityFramework.xml
+C:\Users\Mateusz\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\bin\Debug\Paczki.exe.config
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\bin\Debug\Paczki.exe
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\bin\Debug\Paczki.pdb
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\bin\Debug\EntityFramework.dll
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\bin\Debug\GMap.NET.Core.dll
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\bin\Debug\EntityFramework.xml
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\bin\Debug\GMap.NET.Core.xml
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\bin\Debug\GMap.NET.WindowsForms.xml
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\obj\Debug\Paczki.csprojResolveAssemblyReference.cache
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\obj\Debug\Paczki.Form1.resources
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\obj\Debug\Paczki.Form10.resources
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\obj\Debug\Paczki.Form2.resources
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\obj\Debug\Paczki.Form3.resources
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\obj\Debug\Paczki.Form4.resources
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\obj\Debug\Paczki.Form5.resources
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\obj\Debug\Paczki.Form6.resources
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\obj\Debug\Paczki.Form7.resources
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\obj\Debug\Paczki.Form8.resources
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\obj\Debug\Paczki.Form9.resources
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\obj\Debug\Paczki.Kontrolka.resources
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\obj\Debug\Paczki.Kontrolka1.resources
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\obj\Debug\Paczki.Properties.Resources.resources
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\obj\Debug\Paczki.csproj.GenerateResource.Cache
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\obj\Debug\RdlCompile.cache
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\obj\Debug\RdlCompile.compiled
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\obj\Debug\Paczki.exe
+C:\Users\Sylwia\Desktop\Paczki2\Paczki\obj\Debug\Paczki.pdb
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\Paczki.exe.config
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\Paczki.exe
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\Paczki.pdb
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\EntityFramework.dll
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\GMap.NET.Core.dll
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\EntityFramework.xml
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\GMap.NET.Core.xml
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\bin\Debug\GMap.NET.WindowsForms.xml
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.csprojResolveAssemblyReference.cache
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Form1.resources
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Form10.resources
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Form2.resources
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Form3.resources
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Form4.resources
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Form5.resources
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Form6.resources
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Form7.resources
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Form8.resources
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Form9.resources
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Kontrolka.resources
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Kontrolka1.resources
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.Properties.Resources.resources
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.csproj.GenerateResource.Cache
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\RdlCompile.cache
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\RdlCompile.compiled
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.exe
+C:\Users\Sylwia\Desktop\Projekt_C#\Paczki\Paczki\obj\Debug\Paczki.pdb

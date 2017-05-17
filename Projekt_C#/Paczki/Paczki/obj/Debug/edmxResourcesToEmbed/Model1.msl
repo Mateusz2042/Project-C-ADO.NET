@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BazaDanychModelStoreContainer" CdmEntityContainer="BazaDanychEntities">
+    <EntitySetMapping Name="Kurierzy">
+      <EntityTypeMapping TypeName="BazaDanychModel.Kurierzy">
+        <MappingFragment StoreEntitySet="Kurierzy">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Imie" ColumnName="Imie" />
+          <ScalarProperty Name="Nazwisko" ColumnName="Nazwisko" />
+          <ScalarProperty Name="Wiek" ColumnName="Wiek" />
+          <ScalarProperty Name="Pensja" ColumnName="Pensja" />
+          <ScalarProperty Name="Numer_telefonu" ColumnName="Numer_telefonu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nadawcy">
+      <EntityTypeMapping TypeName="BazaDanychModel.Nadawcy">
+        <MappingFragment StoreEntitySet="Nadawcy">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Imie" ColumnName="Imie" />
+          <ScalarProperty Name="Nazwisko" ColumnName="Nazwisko" />
+          <ScalarProperty Name="Ulica" ColumnName="Ulica" />
+          <ScalarProperty Name="Nr_domu" ColumnName="Nr_domu" />
+          <ScalarProperty Name="Kod_pocztowy" ColumnName="Kod_pocztowy" />
+          <ScalarProperty Name="Miasto" ColumnName="Miasto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Odbiorcy">
+      <EntityTypeMapping TypeName="BazaDanychModel.Odbiorcy">
+        <MappingFragment StoreEntitySet="Odbiorcy">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Imie" ColumnName="Imie" />
+          <ScalarProperty Name="Nazwisko" ColumnName="Nazwisko" />
+          <ScalarProperty Name="Ulica" ColumnName="Ulica" />
+          <ScalarProperty Name="Nr_domu" ColumnName="Nr_domu" />
+          <ScalarProperty Name="Kod_pocztowy" ColumnName="Kod_pocztowy" />
+          <ScalarProperty Name="Miasto" ColumnName="Miasto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Przesylki">
+      <EntityTypeMapping TypeName="BazaDanychModel.Przesylki">
+        <MappingFragment StoreEntitySet="Przesylki">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Typ_przesylki" ColumnName="Typ_przesylki" />
+          <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+          <ScalarProperty Name="Metoda_przeslania" ColumnName="Metoda_przeslania" />
+          <ScalarProperty Name="Waga" ColumnName="Waga" />
+          <ScalarProperty Name="Nadawca" ColumnName="Nadawca" />
+          <ScalarProperty Name="Odbiorca" ColumnName="Odbiorca" />
+          <ScalarProperty Name="Data_nadania" ColumnName="Data_nadania" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

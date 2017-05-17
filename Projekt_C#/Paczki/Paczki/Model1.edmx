@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="BazaDanychModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Kurierzy">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Imie" Type="char" MaxLength="30" />
+          <Property Name="Nazwisko" Type="char" MaxLength="30" />
+          <Property Name="Wiek" Type="int" />
+          <Property Name="Pensja" Type="int" />
+          <Property Name="Numer_telefonu" Type="char" MaxLength="9" />
+        </EntityType>
+        <EntityType Name="Nadawcy">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Imie" Type="char" MaxLength="30" />
+          <Property Name="Nazwisko" Type="char" MaxLength="30" />
+          <Property Name="Ulica" Type="char" MaxLength="30" />
+          <Property Name="Nr_domu" Type="char" MaxLength="10" />
+          <Property Name="Kod_pocztowy" Type="char" MaxLength="6" />
+          <Property Name="Miasto" Type="char" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="Odbiorcy">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Imie" Type="char" MaxLength="30" />
+          <Property Name="Nazwisko" Type="char" MaxLength="30" />
+          <Property Name="Ulica" Type="char" MaxLength="30" />
+          <Property Name="Nr_domu" Type="char" MaxLength="10" />
+          <Property Name="Kod_pocztowy" Type="char" MaxLength="6" />
+          <Property Name="Miasto" Type="char" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="Przesylki">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Typ_przesylki" Type="char" MaxLength="10" />
+          <Property Name="Nazwa" Type="char" MaxLength="50" />
+          <Property Name="Metoda_przeslania" Type="char" MaxLength="20" />
+          <Property Name="Waga" Type="char" MaxLength="10" />
+          <Property Name="Nadawca" Type="char" MaxLength="50" />
+          <Property Name="Odbiorca" Type="char" MaxLength="50" />
+          <Property Name="Data_nadania" Type="char" MaxLength="20" />
+          <Property Name="Status" Type="char" MaxLength="20" />
+        </EntityType>
+        <EntityContainer Name="BazaDanychModelStoreContainer">
+          <EntitySet Name="Kurierzy" EntityType="Self.Kurierzy" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Nadawcy" EntityType="Self.Nadawcy" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Odbiorcy" EntityType="Self.Odbiorcy" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Przesylki" EntityType="Self.Przesylki" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="BazaDanychModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Kurierzy">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Imie" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+          <Property Name="Nazwisko" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+          <Property Name="Wiek" Type="Int32" />
+          <Property Name="Pensja" Type="Int32" />
+          <Property Name="Numer_telefonu" Type="String" MaxLength="9" FixedLength="true" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Nadawcy">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Imie" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+          <Property Name="Nazwisko" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+          <Property Name="Ulica" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+          <Property Name="Nr_domu" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Name="Kod_pocztowy" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Name="Miasto" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Odbiorcy">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Imie" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+          <Property Name="Nazwisko" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+          <Property Name="Ulica" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+          <Property Name="Nr_domu" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Name="Kod_pocztowy" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+          <Property Name="Miasto" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Przesylki">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Typ_przesylki" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Name="Nazwa" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+          <Property Name="Metoda_przeslania" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+          <Property Name="Waga" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Name="Nadawca" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+          <Property Name="Odbiorca" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+          <Property Name="Data_nadania" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+          <Property Name="Status" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="BazaDanychEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Kurierzy" EntityType="Self.Kurierzy" />
+          <EntitySet Name="Nadawcy" EntityType="Self.Nadawcy" />
+          <EntitySet Name="Odbiorcy" EntityType="Self.Odbiorcy" />
+          <EntitySet Name="Przesylki" EntityType="Self.Przesylki" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="BazaDanychModelStoreContainer" CdmEntityContainer="BazaDanychEntities">
+          <EntitySetMapping Name="Kurierzy">
+            <EntityTypeMapping TypeName="BazaDanychModel.Kurierzy">
+              <MappingFragment StoreEntitySet="Kurierzy">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Imie" ColumnName="Imie" />
+                <ScalarProperty Name="Nazwisko" ColumnName="Nazwisko" />
+                <ScalarProperty Name="Wiek" ColumnName="Wiek" />
+                <ScalarProperty Name="Pensja" ColumnName="Pensja" />
+                <ScalarProperty Name="Numer_telefonu" ColumnName="Numer_telefonu" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Nadawcy">
+            <EntityTypeMapping TypeName="BazaDanychModel.Nadawcy">
+              <MappingFragment StoreEntitySet="Nadawcy">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Imie" ColumnName="Imie" />
+                <ScalarProperty Name="Nazwisko" ColumnName="Nazwisko" />
+                <ScalarProperty Name="Ulica" ColumnName="Ulica" />
+                <ScalarProperty Name="Nr_domu" ColumnName="Nr_domu" />
+                <ScalarProperty Name="Kod_pocztowy" ColumnName="Kod_pocztowy" />
+                <ScalarProperty Name="Miasto" ColumnName="Miasto" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Odbiorcy">
+            <EntityTypeMapping TypeName="BazaDanychModel.Odbiorcy">
+              <MappingFragment StoreEntitySet="Odbiorcy">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Imie" ColumnName="Imie" />
+                <ScalarProperty Name="Nazwisko" ColumnName="Nazwisko" />
+                <ScalarProperty Name="Ulica" ColumnName="Ulica" />
+                <ScalarProperty Name="Nr_domu" ColumnName="Nr_domu" />
+                <ScalarProperty Name="Kod_pocztowy" ColumnName="Kod_pocztowy" />
+                <ScalarProperty Name="Miasto" ColumnName="Miasto" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Przesylki">
+            <EntityTypeMapping TypeName="BazaDanychModel.Przesylki">
+              <MappingFragment StoreEntitySet="Przesylki">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Typ_przesylki" ColumnName="Typ_przesylki" />
+                <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+                <ScalarProperty Name="Metoda_przeslania" ColumnName="Metoda_przeslania" />
+                <ScalarProperty Name="Waga" ColumnName="Waga" />
+                <ScalarProperty Name="Nadawca" ColumnName="Nadawca" />
+                <ScalarProperty Name="Odbiorca" ColumnName="Odbiorca" />
+                <ScalarProperty Name="Data_nadania" ColumnName="Data_nadania" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

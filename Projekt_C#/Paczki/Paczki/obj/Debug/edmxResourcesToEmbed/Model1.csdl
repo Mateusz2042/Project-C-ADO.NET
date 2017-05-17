@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BazaDanychModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Kurierzy">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Imie" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="Nazwisko" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="Wiek" Type="Int32" />
+    <Property Name="Pensja" Type="Int32" />
+    <Property Name="Numer_telefonu" Type="String" MaxLength="9" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Nadawcy">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Imie" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="Nazwisko" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="Ulica" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="Nr_domu" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Kod_pocztowy" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="Miasto" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Odbiorcy">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Imie" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="Nazwisko" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="Ulica" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="Nr_domu" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Kod_pocztowy" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="Miasto" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Przesylki">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Typ_przesylki" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Nazwa" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="Metoda_przeslania" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="Waga" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Nadawca" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="Odbiorca" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="Data_nadania" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="Status" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="BazaDanychEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Kurierzy" EntityType="Self.Kurierzy" />
+    <EntitySet Name="Nadawcy" EntityType="Self.Nadawcy" />
+    <EntitySet Name="Odbiorcy" EntityType="Self.Odbiorcy" />
+    <EntitySet Name="Przesylki" EntityType="Self.Przesylki" />
+  </EntityContainer>
+</Schema>
